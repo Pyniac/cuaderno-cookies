@@ -1,0 +1,11 @@
+{
+  "bloque": "cookies",
+  "nombre": "Cuaderno de Cookies",
+  "categorias": [
+    "cookies-clasicas",
+    "cookies-chocolate",
+    "cookies-frutales",
+    "cookies-rellenas",
+    "cookies-modernas"
+  ]
+}

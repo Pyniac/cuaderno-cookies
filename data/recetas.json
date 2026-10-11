@@ -1,0 +1,655 @@
+[{
+  "id": "cookies-chips-01",
+  "nombre": "Cookies con chips de chocolate",
+  "bloque": "cookies",
+  "categoria": "cookies-chocolate",
+  "tags": ["chocolate", "clasica", "estadounidense", "con chips"],
+  "porciones": 24,
+  "molde": {
+    "forma": "ninguno",
+    "tipo": "papel"
+  },
+  "escalado": {
+    "tipo": "por_unidades",
+    "base_unidades": 24,
+    "regla": "unidades"
+  },
+  "sub_recetas": [
+    {
+      "id": "masa-cookies-chips-01",
+      "nombre": "Masa de cookies con chips",
+      "ingredientes": [
+        { "nombre": "harina 0000", "cantidad_g": 280, "rol": "estructura", "notas": "tamizada" },
+        { "nombre": "bicarbonato de sodio", "cantidad_g": 5, "rol": "leudante", "notas": "" },
+        { "nombre": "sal", "cantidad_g": 3, "rol": "sabor", "notas": "" },
+        { "nombre": "mantequilla", "cantidad_g": 200, "rol": "grasa", "notas": "en pomada" },
+        { "nombre": "azúcar moreno", "cantidad_g": 150, "rol": "endulzante", "notas": "" },
+        { "nombre": "azúcar blanco", "cantidad_g": 100, "rol": "endulzante", "notas": "" },
+        { "nombre": "huevos", "cantidad_g": 100, "rol": "estructura", "notas": "temperatura ambiente" },
+        { "nombre": "esencia de vainilla", "cantidad_g": 5, "rol": "aroma", "notas": "" },
+        { "nombre": "chips de chocolate", "cantidad_g": 200, "rol": "sabor", "notas": "" }
+      ],
+      "etapas": [
+        { "nombre": "Cremado", "duracion_min": 5, "temperatura_c": 22, "tecnica": "cremado", "descripcion": "Batir la mantequilla con ambos azúcares hasta blanquear.", "ciencia_ref": "aireado" },
+        { "nombre": "Incorporación", "duracion_min": 5, "tecnica": "emulsion", "descripcion": "Incorporar los huevos uno a uno y la vainilla. Luego los ingredientes secos tamizados y los chips.", "ciencia_ref": "emulsion" },
+        { "nombre": "Frío", "duracion_min": 60, "temperatura_c": 4, "tecnica": "refrigeración", "descripcion": "Refrigerar la masa por 1 hora.", "ciencia_ref": "" },
+        { "nombre": "Horneado", "duracion_min": 12, "temperatura_c": 180, "tecnica": "horneado", "descripcion": "Formar bolitas y hornear hasta que los bordes estén dorados.", "ciencia_ref": "gelatinizacion_almidon" }
+      ]
+    }
+  ],
+  "etapas": [
+    { "nombre": "Preparar masa", "sub_receta_id": "masa-cookies-chips-01", "ciencia_ref": "aireado" },
+    { "nombre": "Frío", "descripcion": "Refrigerar la masa por 1 hora.", "ciencia_ref": "" },
+    { "nombre": "Formado", "descripcion": "Formar bolitas de masa del tamaño deseado.", "ciencia_ref": "" },
+    { "nombre": "Horneado", "descripcion": "Hornear a 180°C por 12 minutos hasta que los bordes estén dorados.", "ciencia_ref": "gelatinizacion_almidon" },
+    { "nombre": "Enfriado", "descripcion": "Dejar enfriar sobre rejilla antes de consumir.", "ciencia_ref": "" }
+  ],
+  "ciencia": [
+    {
+      "fenomeno": "aireado",
+      "explicacion": "El cremado de la mantequilla con el azúcar incorpora aire en forma de pequeñas burbujas. La grasa sólida de la mantequilla atrapa estas burbujas, y los cristales de azúcar ayudan a estabilizarlas. Al hornearse, el aire se expande y el bicarbonato produce CO2, lo que da volumen a las cookies.",
+      "punto_critico": "La temperatura de la mantequilla (20-22°C). Si está muy fría, no se incorpora aire; si está muy caliente, la mantequilla se derrite y no puede atrapar las burbujas.",
+      "error_tipico": "No cremar lo suficiente o añadir los huevos demasiado rápido, lo que provoca que la emulsión se corte.",
+      "referencia": "Koppmann, M. Manual de Química Culinaria, Cap. 2: Las Proteínas I."
+    },
+    {
+      "fenomeno": "emulsion",
+      "explicacion": "La mantequilla y los huevos forman una emulsión de grasa en agua. La lecitina de la yema actúa como emulsionante, permitiendo que la grasa se disperse en la fase acuosa. Esta emulsión da cohesión y humedad a la masa.",
+      "punto_critico": "La incorporación gradual de los huevos. Si se añaden todos de golpe, la emulsión puede cortarse.",
+      "error_tipico": "Añadir los huevos fríos, lo que puede provocar que la mantequilla se endurezca y la emulsión se corte.",
+      "referencia": "Koppmann, M. Manual de Química Culinaria, Cap. 3: Las Emulsiones."
+    },
+    {
+      "fenomeno": "gelatinizacion_almidon",
+      "explicacion": "Durante el horneado, el calor hace que los gránulos de almidón de la harina absorban agua y se gelatinicen, formando una estructura que atrapa las burbujas de aire y da forma a las cookies. La red de gluten también contribuye a la estructura.",
+      "punto_critico": "La temperatura del horno (180°C). Si es muy alta, los bordes se queman antes de que el centro se cocine; si es muy baja, las cookies no se expanden correctamente.",
+      "error_tipico": "Hornear en exceso, lo que resulta en cookies duras en lugar de chewy.",
+      "referencia": "Badui Dergal, S. Química de los Alimentos, Cap. 2: Hidratos de Carbono, Sección 2.11.3 Almidón."
+    }
+  ],
+  "bpm": [
+    "Lavado de manos antes de manipular",
+    "Superficie desinfectada",
+    "Uso de guantes",
+    "Temperatura de frío controlada (< 5°C)"
+  ],
+  "anmat": [
+    "Rotulado según CAA art. 235",
+    "Declaración de alérgenos",
+    "Fecha de elaboración y vencimiento",
+    "Condiciones de conservación: ambiente seco"
+  ],
+  "rendimiento": {
+    "unidades": 24,
+    "peso_pieza_g": 50,
+    "peso_total_g": 1200
+  },
+  "referencias": [
+    { "libro": "Gross, Osvaldo. El ABC de la Pastelería", "capitulo": "", "pagina": 0 },
+    { "libro": "Koppmann, Mariana. Manual de Química Culinaria", "capitulo": "", "pagina": 0 }
+  ],
+  "activa": true
+},{
+  "id": "cookies-avena-pasas-01",
+  "nombre": "Cookies de avena y pasas",
+  "bloque": "cookies",
+  "categoria": "cookies-clasicas",
+  "tags": ["con avena", "con pasas", "clasica", "con frutos secos"],
+  "porciones": 24,
+  "molde": {
+    "forma": "ninguno",
+    "tipo": "papel"
+  },
+  "escalado": {
+    "tipo": "por_unidades",
+    "base_unidades": 24,
+    "regla": "unidades"
+  },
+  "sub_recetas": [
+    {
+      "id": "masa-avena-pasas-01",
+      "nombre": "Masa de avena y pasas",
+      "ingredientes": [
+        { "nombre": "harina 0000", "cantidad_g": 200, "rol": "estructura", "notas": "tamizada" },
+        { "nombre": "avena arrollada", "cantidad_g": 150, "rol": "estructura", "notas": "" },
+        { "nombre": "bicarbonato de sodio", "cantidad_g": 5, "rol": "leudante", "notas": "" },
+        { "nombre": "canela", "cantidad_g": 3, "rol": "especia", "notas": "" },
+        { "nombre": "sal", "cantidad_g": 3, "rol": "sabor", "notas": "" },
+        { "nombre": "mantequilla", "cantidad_g": 180, "rol": "grasa", "notas": "en pomada" },
+        { "nombre": "azúcar moreno", "cantidad_g": 150, "rol": "endulzante", "notas": "" },
+        { "nombre": "azúcar blanco", "cantidad_g": 80, "rol": "endulzante", "notas": "" },
+        { "nombre": "huevos", "cantidad_g": 100, "rol": "estructura", "notas": "temperatura ambiente" },
+        { "nombre": "esencia de vainilla", "cantidad_g": 5, "rol": "aroma", "notas": "" },
+        { "nombre": "pasas de uva", "cantidad_g": 150, "rol": "sabor", "notas": "hidratadas en agua tibia" }
+      ],
+      "etapas": [
+        { "nombre": "Cremado", "duracion_min": 5, "temperatura_c": 22, "tecnica": "cremado", "descripcion": "Batir la mantequilla con ambos azúcares hasta blanquear.", "ciencia_ref": "aireado" },
+        { "nombre": "Incorporación", "duracion_min": 5, "tecnica": "emulsion", "descripcion": "Incorporar los huevos uno a uno y la vainilla. Luego los ingredientes secos tamizados, la avena y las pasas.", "ciencia_ref": "emulsion" },
+        { "nombre": "Frío", "duracion_min": 60, "temperatura_c": 4, "tecnica": "refrigeración", "descripcion": "Refrigerar la masa por 1 hora.", "ciencia_ref": "" },
+        { "nombre": "Horneado", "duracion_min": 14, "temperatura_c": 180, "tecnica": "horneado", "descripcion": "Formar bolitas y hornear hasta que estén doradas.", "ciencia_ref": "gelatinizacion_almidon" }
+      ]
+    }
+  ],
+  "etapas": [
+    { "nombre": "Preparar masa", "sub_receta_id": "masa-avena-pasas-01", "ciencia_ref": "aireado" },
+    { "nombre": "Frío", "descripcion": "Refrigerar la masa por 1 hora.", "ciencia_ref": "" },
+    { "nombre": "Formado", "descripcion": "Formar bolitas de masa del tamaño deseado.", "ciencia_ref": "" },
+    { "nombre": "Horneado", "descripcion": "Hornear a 180°C por 14 minutos hasta que estén doradas.", "ciencia_ref": "gelatinizacion_almidon" },
+    { "nombre": "Enfriado", "descripcion": "Dejar enfriar sobre rejilla antes de consumir.", "ciencia_ref": "" }
+  ],
+  "ciencia": [
+    {
+      "fenomeno": "aireado",
+      "explicacion": "El cremado de la mantequilla con el azúcar incorpora aire en forma de pequeñas burbujas. La grasa sólida de la mantequilla atrapa estas burbujas, y los cristales de azúcar ayudan a estabilizarlas. Al hornearse, el aire se expande y el bicarbonato produce CO2, lo que da volumen a las cookies.",
+      "punto_critico": "La temperatura de la mantequilla (20-22°C). Si está muy fría, no se incorpora aire; si está muy caliente, la mantequilla se derrite y no puede atrapar las burbujas.",
+      "error_tipico": "No cremar lo suficiente o añadir los huevos demasiado rápido, lo que provoca que la emulsión se corte.",
+      "referencia": "Koppmann, M. Manual de Química Culinaria, Cap. 2: Las Proteínas I."
+    },
+    {
+      "fenomeno": "emulsion",
+      "explicacion": "La mantequilla y los huevos forman una emulsión de grasa en agua. La lecitina de la yema actúa como emulsionante, permitiendo que la grasa se disperse en la fase acuosa. Esta emulsión da cohesión y humedad a la masa.",
+      "punto_critico": "La incorporación gradual de los huevos. Si se añaden todos de golpe, la emulsión puede cortarse.",
+      "error_tipico": "Añadir los huevos fríos, lo que puede provocar que la mantequilla se endurezca y la emulsión se corte.",
+      "referencia": "Koppmann, M. Manual de Química Culinaria, Cap. 3: Las Emulsiones."
+    },
+    {
+      "fenomeno": "reaccion_maillard",
+      "explicacion": "La reacción de Maillard es una reacción de pardeamiento no enzimático entre aminoácidos y azúcares reductores. En las cookies de avena y pasas, el azúcar moreno y las pasas (que contienen fructosa y glucosa) favorecen esta reacción, que contribuye al color dorado y al sabor complejo.",
+      "punto_critico": "La temperatura (>140°C) y la presencia de azúcares reductores. La reacción se acelera a medida que aumenta la temperatura.",
+      "error_tipico": "Hornear a temperatura muy alta, lo que puede quemar los bordes antes de que el centro se cocine.",
+      "referencia": "Badui Dergal, S. Química de los Alimentos, Cap. 2: Hidratos de Carbono, Sección 2.9.5.2 Reacción de Maillard."
+    }
+  ],
+  "bpm": [
+    "Lavado de manos antes de manipular",
+    "Superficie desinfectada",
+    "Uso de guantes",
+    "Temperatura de frío controlada (< 5°C)"
+  ],
+  "anmat": [
+    "Rotulado según CAA art. 235",
+    "Declaración de alérgenos",
+    "Fecha de elaboración y vencimiento",
+    "Condiciones de conservación: ambiente seco"
+  ],
+  "rendimiento": {
+    "unidades": 24,
+    "peso_pieza_g": 45,
+    "peso_total_g": 1080
+  },
+  "referencias": [
+    { "libro": "Gross, Osvaldo. El ABC de la Pastelería", "capitulo": "", "pagina": 0 },
+    { "libro": "Koppmann, Mariana. Manual de Química Culinaria", "capitulo": "", "pagina": 0 },
+    { "libro": "Badui Dergal, Salvador. Química de los Alimentos", "capitulo": "2", "pagina": 0 }
+  ],
+  "activa": true
+},
+{
+  "id": "cookies-shortbread-01",
+  "nombre": "Cookies de manteca (Shortbread)",
+  "bloque": "cookies",
+  "categoria": "cookies-clasicas",
+  "tags": ["clasica", "económica", "escocesa"],
+  "porciones": 20,
+  "molde": {
+    "forma": "rectangular",
+    "largo_cm": 20,
+    "ancho_cm": 20,
+    "altura_cm": 2,
+    "tipo": "fijo"
+  },
+  "escalado": {
+    "tipo": "por_unidades",
+    "base_unidades": 20,
+    "regla": "unidades"
+  },
+  "sub_recetas": [
+    {
+      "id": "masa-shortbread-01",
+      "nombre": "Masa de shortbread",
+      "ingredientes": [
+        { "nombre": "harina 0000", "cantidad_g": 250, "rol": "estructura", "notas": "tamizada" },
+        { "nombre": "azúcar impalpable", "cantidad_g": 80, "rol": "endulzante", "notas": "" },
+        { "nombre": "mantequilla", "cantidad_g": 200, "rol": "grasa", "notas": "fría, en cubos" },
+        { "nombre": "sal", "cantidad_g": 2, "rol": "sabor", "notas": "" }
+      ],
+      "etapas": [
+        { "nombre": "Sablage", "duracion_min": 5, "temperatura_c": 18, "tecnica": "sablage", "descripcion": "Frotar la mantequilla fría con la harina y el azúcar hasta obtener una textura arenosa.", "ciencia_ref": "emulsion" },
+        { "nombre": "Amasado", "duracion_min": 2, "temperatura_c": 18, "tecnica": "amasado", "descripcion": "Formar una masa sin amasar en exceso.", "ciencia_ref": "desarrollo_gluten" },
+        { "nombre": "Frío", "duracion_min": 30, "temperatura_c": 4, "tecnica": "refrigeración", "descripcion": "Refrigerar la masa por 30 minutos.", "ciencia_ref": "" },
+        { "nombre": "Horneado", "duracion_min": 25, "temperatura_c": 160, "tecnica": "horneado", "descripcion": "Estirar la masa, cortar y hornear hasta que estén ligeramente doradas.", "ciencia_ref": "gelatinizacion_almidon" }
+      ]
+    }
+  ],
+  "etapas": [
+    { "nombre": "Preparar masa", "sub_receta_id": "masa-shortbread-01", "ciencia_ref": "emulsion" },
+    { "nombre": "Frío", "descripcion": "Refrigerar la masa por 30 minutos.", "ciencia_ref": "" },
+    { "nombre": "Estirado y cortado", "descripcion": "Estirar la masa y cortar en la forma deseada.", "ciencia_ref": "" },
+    { "nombre": "Horneado", "descripcion": "Hornear a 160°C por 25 minutos hasta que estén ligeramente doradas.", "ciencia_ref": "gelatinizacion_almidon" },
+    { "nombre": "Enfriado", "descripcion": "Dejar enfriar sobre rejilla antes de consumir.", "ciencia_ref": "" }
+  ],
+  "ciencia": [
+    {
+      "fenomeno": "emulsion",
+      "explicacion": "La mantequilla es una emulsión de agua en grasa. En la masa de shortbread, la mantequilla actúa como fase continua que atrapa la harina y el azúcar. El alto contenido de grasa limita la formación de gluten, lo que resulta en una textura quebradiza y mantecosa.",
+      "punto_critico": "La temperatura de la mantequilla (fría, pero no congelada). Si está muy fría, no se integra; si está muy caliente, la masa se vuelve aceitosa.",
+      "error_tipico": "Amasar en exceso, lo que desarrolla el gluten y endurece las cookies.",
+      "referencia": "Koppmann, M. Manual de Química Culinaria, Cap. 3: Las Emulsiones."
+    },
+    {
+      "fenomeno": "gelatinizacion_almidon",
+      "explicacion": "Durante el horneado, el almidón de la harina gelatiniza, pero la grasa recubre las partículas de harina y limita la absorción de agua, lo que resulta en una textura arenosa y quebradiza en lugar de elástica.",
+      "punto_critico": "La temperatura del horno (160°C). Si es muy alta, las cookies se doran demasiado rápido; si es muy baja, no se cocinan bien.",
+      "error_tipico": "Hornear en exceso, lo que resulta en cookies duras en lugar de quebradizas.",
+      "referencia": "Badui Dergal, S. Química de los Alimentos, Cap. 2: Hidratos de Carbono, Sección 2.11.3 Almidón."
+    }
+  ],
+  "bpm": [
+    "Lavado de manos antes de manipular",
+    "Superficie desinfectada",
+    "Uso de guantes",
+    "Temperatura de frío controlada (< 5°C)"
+  ],
+  "anmat": [
+    "Rotulado según CAA art. 235",
+    "Declaración de alérgenos",
+    "Fecha de elaboración y vencimiento",
+    "Condiciones de conservación: ambiente seco"
+  ],
+  "rendimiento": {
+    "unidades": 20,
+    "peso_pieza_g": 30,
+    "peso_total_g": 600
+  },
+  "referencias": [
+    { "libro": "Gross, Osvaldo. El ABC de la Pastelería", "capitulo": "", "pagina": 0 },
+    { "libro": "Koppmann, Mariana. Manual de Química Culinaria", "capitulo": "", "pagina": 0 }
+  ],
+  "activa": true
+},
+{
+  "id": "cookies-limon-01",
+  "nombre": "Cookies de limón",
+  "bloque": "cookies",
+  "categoria": "cookies-frutales",
+  "tags": ["frutal", "clasica", "cítrico"],
+  "porciones": 24,
+  "molde": {
+    "forma": "ninguno",
+    "tipo": "papel"
+  },
+  "escalado": {
+    "tipo": "por_unidades",
+    "base_unidades": 24,
+    "regla": "unidades"
+  },
+  "sub_recetas": [
+    {
+      "id": "masa-limon-01",
+      "nombre": "Masa de limón",
+      "ingredientes": [
+        { "nombre": "harina 0000", "cantidad_g": 250, "rol": "estructura", "notas": "tamizada" },
+        { "nombre": "polvo de hornear", "cantidad_g": 5, "rol": "leudante", "notas": "" },
+        { "nombre": "sal", "cantidad_g": 2, "rol": "sabor", "notas": "" },
+        { "nombre": "mantequilla", "cantidad_g": 150, "rol": "grasa", "notas": "en pomada" },
+        { "nombre": "azúcar", "cantidad_g": 150, "rol": "endulzante", "notas": "" },
+        { "nombre": "huevos", "cantidad_g": 80, "rol": "estructura", "notas": "temperatura ambiente" },
+        { "nombre": "jugo de limón", "cantidad_g": 30, "rol": "sabor", "notas": "recién exprimido" },
+        { "nombre": "ralladura de limón", "cantidad_g": 10, "rol": "aroma", "notas": "" }
+      ],
+      "etapas": [
+        { "nombre": "Cremado", "duracion_min": 5, "temperatura_c": 22, "tecnica": "cremado", "descripcion": "Batir la mantequilla con el azúcar hasta blanquear.", "ciencia_ref": "aireado" },
+        { "nombre": "Incorporación", "duracion_min": 5, "tecnica": "emulsion", "descripcion": "Incorporar los huevos, el jugo y la ralladura de limón. Luego los ingredientes secos tamizados.", "ciencia_ref": "emulsion" },
+        { "nombre": "Frío", "duracion_min": 60, "temperatura_c": 4, "tecnica": "refrigeración", "descripcion": "Refrigerar la masa por 1 hora.", "ciencia_ref": "" },
+        { "nombre": "Horneado", "duracion_min": 12, "temperatura_c": 180, "tecnica": "horneado", "descripcion": "Formar bolitas y hornear hasta que los bordes estén dorados.", "ciencia_ref": "gelatinizacion_almidon" }
+      ]
+    }
+  ],
+  "etapas": [
+    { "nombre": "Preparar masa", "sub_receta_id": "masa-limon-01", "ciencia_ref": "aireado" },
+    { "nombre": "Frío", "descripcion": "Refrigerar la masa por 1 hora.", "ciencia_ref": "" },
+    { "nombre": "Formado", "descripcion": "Formar bolitas de masa del tamaño deseado.", "ciencia_ref": "" },
+    { "nombre": "Horneado", "descripcion": "Hornear a 180°C por 12 minutos hasta que los bordes estén dorados.", "ciencia_ref": "gelatinizacion_almidon" },
+    { "nombre": "Enfriado", "descripcion": "Dejar enfriar sobre rejilla antes de consumir.", "ciencia_ref": "" }
+  ],
+  "ciencia": [
+    {
+      "fenomeno": "aireado",
+      "explicacion": "El cremado de la mantequilla con el azúcar incorpora aire en forma de pequeñas burbujas. La grasa sólida de la mantequilla atrapa estas burbujas, y los cristales de azúcar ayudan a estabilizarlas. Al hornearse, el aire se expande y el polvo de hornear produce CO2, lo que da volumen a las cookies.",
+      "punto_critico": "La temperatura de la mantequilla (20-22°C). Si está muy fría, no se incorpora aire; si está muy caliente, la mantequilla se derrite y no puede atrapar las burbujas.",
+      "error_tipico": "No cremar lo suficiente o añadir los huevos demasiado rápido, lo que provoca que la emulsión se corte.",
+      "referencia": "Koppmann, M. Manual de Química Culinaria, Cap. 2: Las Proteínas I."
+    },
+    {
+      "fenomeno": "emulsion",
+      "explicacion": "La mantequilla y los huevos forman una emulsión de grasa en agua. La lecitina de la yema actúa como emulsionante. El jugo de limón aporta agua adicional y ácido cítrico, que puede afectar ligeramente la emulsión.",
+      "punto_critico": "La incorporación gradual de los huevos y el jugo de limón. Si se añaden todos de golpe, la emulsión puede cortarse.",
+      "error_tipico": "Añadir demasiado jugo de limón, lo que puede hacer que la masa se vuelva muy ácida y afecte la textura.",
+      "referencia": "Koppmann, M. Manual de Química Culinaria, Cap. 3: Las Emulsiones."
+    },
+    {
+      "fenomeno": "gelatinizacion_almidon",
+      "explicacion": "Durante el horneado, el calor hace que los gránulos de almidón de la harina absorban agua y se gelatinicen, formando una estructura que atrapa las burbujas de aire y da forma a las cookies.",
+      "punto_critico": "La temperatura del horno (180°C). Si es muy alta, los bordes se queman antes de que el centro se cocine.",
+      "error_tipico": "Hornear en exceso, lo que resulta en cookies duras en lugar de chewy.",
+      "referencia": "Badui Dergal, S. Química de los Alimentos, Cap. 2: Hidratos de Carbono, Sección 2.11.3 Almidón."
+    }
+  ],
+  "bpm": [
+    "Lavado de manos antes de manipular",
+    "Superficie desinfectada",
+    "Uso de guantes",
+    "Temperatura de frío controlada (< 5°C)"
+  ],
+  "anmat": [
+    "Rotulado según CAA art. 235",
+    "Declaración de alérgenos",
+    "Fecha de elaboración y vencimiento",
+    "Condiciones de conservación: ambiente seco"
+  ],
+  "rendimiento": {
+    "unidades": 24,
+    "peso_pieza_g": 35,
+    "peso_total_g": 840
+  },
+  "referencias": [
+    { "libro": "Gross, Osvaldo. El ABC de la Pastelería", "capitulo": "", "pagina": 0 },
+    { "libro": "Koppmann, Mariana. Manual de Química Culinaria", "capitulo": "", "pagina": 0 }
+  ],
+  "activa": true
+},
+{
+  "id": "cookies-jengibre-01",
+  "nombre": "Cookies de jengibre (Gingerbread)",
+  "bloque": "cookies",
+  "categoria": "cookies-clasicas",
+  "tags": ["navideña", "clasica", "especiada"],
+  "porciones": 24,
+  "molde": {
+    "forma": "ninguno",
+    "tipo": "papel"
+  },
+  "escalado": {
+    "tipo": "por_unidades",
+    "base_unidades": 24,
+    "regla": "unidades"
+  },
+  "sub_recetas": [
+    {
+      "id": "masa-gingerbread-01",
+      "nombre": "Masa de gingerbread",
+      "ingredientes": [
+        { "nombre": "harina 0000", "cantidad_g": 300, "rol": "estructura", "notas": "tamizada" },
+        { "nombre": "bicarbonato de sodio", "cantidad_g": 5, "rol": "leudante", "notas": "" },
+        { "nombre": "jengibre en polvo", "cantidad_g": 5, "rol": "especia", "notas": "" },
+        { "nombre": "canela en polvo", "cantidad_g": 3, "rol": "especia", "notas": "" },
+        { "nombre": "clavo en polvo", "cantidad_g": 1, "rol": "especia", "notas": "" },
+        { "nombre": "sal", "cantidad_g": 3, "rol": "sabor", "notas": "" },
+        { "nombre": "mantequilla", "cantidad_g": 120, "rol": "grasa", "notas": "en pomada" },
+        { "nombre": "azúcar moreno", "cantidad_g": 150, "rol": "endulzante", "notas": "" },
+        { "nombre": "melaza", "cantidad_g": 100, "rol": "endulzante", "notas": "" },
+        { "nombre": "huevos", "cantidad_g": 80, "rol": "estructura", "notas": "temperatura ambiente" }
+      ],
+      "etapas": [
+        { "nombre": "Cremado", "duracion_min": 5, "temperatura_c": 22, "tecnica": "cremado", "descripcion": "Batir la mantequilla con el azúcar moreno y la melaza hasta blanquear.", "ciencia_ref": "aireado" },
+        { "nombre": "Incorporación", "duracion_min": 5, "tecnica": "emulsion", "descripcion": "Incorporar los huevos uno a uno. Luego los ingredientes secos tamizados.", "ciencia_ref": "emulsion" },
+        { "nombre": "Frío", "duracion_min": 60, "temperatura_c": 4, "tecnica": "refrigeración", "descripcion": "Refrigerar la masa por 1 hora.", "ciencia_ref": "" },
+        { "nombre": "Horneado", "duracion_min": 12, "temperatura_c": 180, "tecnica": "horneado", "descripcion": "Estirar la masa, cortar y hornear hasta que estén doradas.", "ciencia_ref": "gelatinizacion_almidon" }
+      ]
+    }
+  ],
+  "etapas": [
+    { "nombre": "Preparar masa", "sub_receta_id": "masa-gingerbread-01", "ciencia_ref": "aireado" },
+    { "nombre": "Frío", "descripcion": "Refrigerar la masa por 1 hora.", "ciencia_ref": "" },
+    { "nombre": "Estirado y cortado", "descripcion": "Estirar la masa y cortar en la forma deseada.", "ciencia_ref": "" },
+    { "nombre": "Horneado", "descripcion": "Hornear a 180°C por 12 minutos hasta que estén doradas.", "ciencia_ref": "gelatinizacion_almidon" },
+    { "nombre": "Enfriado", "descripcion": "Dejar enfriar sobre rejilla antes de consumir.", "ciencia_ref": "" }
+  ],
+  "ciencia": [
+    {
+      "fenomeno": "aireado",
+      "explicacion": "El cremado de la mantequilla con el azúcar moreno y la melaza incorpora aire en forma de pequeñas burbujas. La grasa sólida de la mantequilla atrapa estas burbujas. Al hornearse, el aire se expande y el bicarbonato produce CO2, lo que da volumen a las cookies.",
+      "punto_critico": "La temperatura de la mantequilla (20-22°C). Si está muy fría, no se incorpora aire; si está muy caliente, la mantequilla se derrite y no puede atrapar las burbujas.",
+      "error_tipico": "No cremar lo suficiente o añadir los huevos demasiado rápido, lo que provoca que la emulsión se corte.",
+      "referencia": "Koppmann, M. Manual de Química Culinaria, Cap. 2: Las Proteínas I."
+    },
+    {
+      "fenomeno": "caramelizacion",
+      "explicacion": "La caramelización es la descomposición térmica del azúcar. La melaza y el azúcar moreno contienen azúcares que, al calentarse, se caramelizan, aportando color oscuro y sabor complejo a las cookies.",
+      "punto_critico": "La temperatura (>160°C). Si se calienta demasiado, el azúcar se quema y amarga.",
+      "error_tipico": "Hornear a temperatura muy alta, lo que puede quemar los bordes antes de que el centro se cocine.",
+      "referencia": "Badui Dergal, S. Química de los Alimentos, Cap. 2: Hidratos de Carbono, Sección 2.9.5.1 Caramelización."
+    },
+    {
+      "fenomeno": "reaccion_maillard",
+      "explicacion": "La reacción de Maillard es una reacción de pardeamiento no enzimático entre aminoácidos y azúcares reductores. En el gingerbread, la melaza y el azúcar moreno favorecen esta reacción, que contribuye al color y sabor característicos.",
+      "punto_critico": "La temperatura (>140°C) y la presencia de azúcares reductores. La reacción se acelera a medida que aumenta la temperatura.",
+      "error_tipico": "Hornear a temperatura muy alta, lo que puede quemar los bordes.",
+      "referencia": "Badui Dergal, S. Química de los Alimentos, Cap. 2: Hidratos de Carbono, Sección 2.9.5.2 Reacción de Maillard."
+    }
+  ],
+  "bpm": [
+    "Lavado de manos antes de manipular",
+    "Superficie desinfectada",
+    "Uso de guantes",
+    "Temperatura de frío controlada (< 5°C)"
+  ],
+  "anmat": [
+    "Rotulado según CAA art. 235",
+    "Declaración de alérgenos",
+    "Fecha de elaboración y vencimiento",
+    "Condiciones de conservación: ambiente seco"
+  ],
+  "rendimiento": {
+    "unidades": 24,
+    "peso_pieza_g": 40,
+    "peso_total_g": 960
+  },
+  "referencias": [
+    { "libro": "Gross, Osvaldo. El ABC de la Pastelería", "capitulo": "", "pagina": 0 },
+    { "libro": "Koppmann, Mariana. Manual de Química Culinaria", "capitulo": "", "pagina": 0 },
+    { "libro": "Badui Dergal, Salvador. Química de los Alimentos", "capitulo": "2", "pagina": 0 }
+  ],
+  "activa": true
+},
+{
+  "id": "alfajores-maicena-01",
+  "nombre": "Alfajores de maicena",
+  "bloque": "cookies",
+  "categoria": "cookies-rellenas",
+  "tags": ["argentina", "rellena", "clasica", "crema"],
+  "porciones": 12,
+  "molde": {
+    "forma": "redondo",
+    "diametro_cm": 5,
+    "altura_cm": 1,
+    "tipo": "ninguno"
+  },
+  "escalado": {
+    "tipo": "por_unidades",
+    "base_unidades": 12,
+    "regla": "unidades"
+  },
+  "sub_recetas": [
+    {
+      "id": "masa-alfajor-01",
+      "nombre": "Masa de alfajor",
+      "ingredientes": [
+        { "nombre": "maicena", "cantidad_g": 200, "rol": "estructura", "notas": "tamizada" },
+        { "nombre": "harina 0000", "cantidad_g": 100, "rol": "estructura", "notas": "tamizada" },
+        { "nombre": "polvo de hornear", "cantidad_g": 5, "rol": "leudante", "notas": "" },
+        { "nombre": "bicarbonato de sodio", "cantidad_g": 3, "rol": "leudante", "notas": "" },
+        { "nombre": "mantequilla", "cantidad_g": 150, "rol": "grasa", "notas": "en pomada" },
+        { "nombre": "azúcar impalpable", "cantidad_g": 100, "rol": "endulzante", "notas": "" },
+        { "nombre": "yemas", "cantidad_g": 80, "rol": "estructura", "notas": "" },
+        { "nombre": "esencia de vainilla", "cantidad_g": 3, "rol": "aroma", "notas": "" },
+        { "nombre": "ralladura de limón", "cantidad_g": 5, "rol": "aroma", "notas": "" }
+      ],
+      "etapas": [
+        { "nombre": "Cremado", "duracion_min": 5, "temperatura_c": 22, "tecnica": "cremado", "descripcion": "Batir la mantequilla con el azúcar impalpable hasta blanquear.", "ciencia_ref": "aireado" },
+        { "nombre": "Incorporación", "duracion_min": 5, "tecnica": "emulsion", "descripcion": "Incorporar las yemas, la vainilla y la ralladura de limón. Luego los ingredientes secos tamizados.", "ciencia_ref": "emulsion" },
+        { "nombre": "Frío", "duracion_min": 60, "temperatura_c": 4, "tecnica": "refrigeración", "descripcion": "Refrigerar la masa por 1 hora.", "ciencia_ref": "" },
+        { "nombre": "Horneado", "duracion_min": 10, "temperatura_c": 170, "tecnica": "horneado", "descripcion": "Estirar la masa, cortar discos y hornear hasta que estén ligeramente dorados.", "ciencia_ref": "gelatinizacion_almidon" }
+      ]
+    },
+    {
+      "id": "relleno-dulce-leche-01",
+      "nombre": "Relleno de dulce de leche",
+      "ingredientes": [
+        { "nombre": "dulce de leche", "cantidad_g": 300, "rol": "sabor", "notas": "repostero" }
+      ],
+      "etapas": [
+        { "nombre": "Relleno", "descripcion": "Utilizar el dulce de leche directamente.", "ciencia_ref": "" }
+      ]
+    }
+  ],
+  "etapas": [
+    { "nombre": "Preparar masa", "sub_receta_id": "masa-alfajor-01", "ciencia_ref": "gelatinizacion_almidon" },
+    { "nombre": "Frío", "descripcion": "Refrigerar la masa por 1 hora.", "ciencia_ref": "" },
+    { "nombre": "Estirado y cortado", "descripcion": "Estirar la masa y cortar discos de 5 cm de diámetro.", "ciencia_ref": "" },
+    { "nombre": "Horneado", "descripcion": "Hornear a 170°C por 10 minutos hasta que estén ligeramente dorados.", "ciencia_ref": "gelatinizacion_almidon" },
+    { "nombre": "Enfriado", "descripcion": "Dejar enfriar sobre rejilla.", "ciencia_ref": "" },
+    { "nombre": "Armado", "descripcion": "Unir dos discos con dulce de leche y pasar por coco rallado.", "ciencia_ref": "" }
+  ],
+  "ciencia": [
+    {
+      "fenomeno": "gelatinizacion_almidon",
+      "explicacion": "La maicena (almidón de maíz) es el ingrediente principal. Durante el horneado, el calor hace que los gránulos de almidón absorban agua y se gelatinicen. La gelatinización del almidón de maíz da una textura muy suave y quebradiza, característica de los alfajores de maicena. El almidón de maíz tiene una temperatura de gelatinización más baja que la harina de trigo, lo que contribuye a la textura delicada.",
+      "punto_critico": "La temperatura del horno (170°C). Si es muy alta, los alfajores se doran demasiado rápido y se endurecen; si es muy baja, no se cocinan bien y se deshacen.",
+      "error_tipico": "Hornear en exceso, lo que resulta en alfajores duros en lugar de quebradizos.",
+      "referencia": "Badui Dergal, S. Química de los Alimentos, Cap. 2: Hidratos de Carbono, Sección 2.11.3.2 Gelatinización."
+    },
+    {
+      "fenomeno": "emulsion",
+      "explicacion": "La mantequilla y las yemas forman una emulsión de grasa en agua. La lecitina de las yemas actúa como emulsionante, permitiendo que la grasa se disperse en la fase acuosa. Esta emulsión da cohesión y humedad a la masa.",
+      "punto_critico": "La incorporación gradual de las yemas. Si se añaden todas de golpe, la emulsión puede cortarse.",
+      "error_tipico": "Añadir las yemas frías, lo que puede provocar que la mantequilla se endurezca y la emulsión se corte.",
+      "referencia": "Koppmann, M. Manual de Química Culinaria, Cap. 3: Las Emulsiones."
+    },
+    {
+      "fenomeno": "caramelizacion",
+      "explicacion": "El dulce de leche se produce por la caramelización de la leche y el azúcar. Durante su elaboración, los azúcares se caramelizan y las proteínas de la leche reaccionan con los azúcares (reacción de Maillard), dando lugar a su color marrón y sabor característico.",
+      "punto_critico": "La temperatura y el tiempo de cocción del dulce de leche. Si se cocina demasiado, se endurece; si se cocina poco, queda líquido.",
+      "error_tipico": "Usar dulce de leche muy líquido, lo que hace que los alfajores se desarmen.",
+      "referencia": "Badui Dergal, S. Química de los Alimentos, Cap. 2: Hidratos de Carbono, Sección 2.9.5.1 Caramelización."
+    }
+  ],
+  "bpm": [
+    "Lavado de manos antes de manipular",
+    "Superficie desinfectada",
+    "Uso de guantes",
+    "Temperatura de frío controlada (< 5°C)"
+  ],
+  "anmat": [
+    "Rotulado según CAA art. 235",
+    "Declaración de alérgenos",
+    "Fecha de elaboración y vencimiento",
+    "Condiciones de conservación: ambiente seco"
+  ],
+  "rendimiento": {
+    "unidades": 12,
+    "peso_pieza_g": 50,
+    "peso_total_g": 600
+  },
+  "referencias": [
+    { "libro": "Gross, Osvaldo. El ABC de la Pastelería", "capitulo": "", "pagina": 0 },
+    { "libro": "Koppmann, Mariana. Manual de Química Culinaria", "capitulo": "", "pagina": 0 },
+    { "libro": "Badui Dergal, Salvador. Química de los Alimentos", "capitulo": "2", "pagina": 0 }
+  ],
+  "activa": true
+},
+{
+  "id": "cookies-americanas-01",
+  "nombre": "Cookies Americanas",
+  "bloque": "cookies",
+  "categoria": "cookies-clasicas",
+  "tags": ["estadounidense", "clasica", "con frutos secos", "con avena", "con nueces", "con chips"],
+  "porciones": 24,
+  "molde": {
+    "forma": "ninguno",
+    "tipo": "papel"
+  },
+  "escalado": {
+    "tipo": "por_unidades",
+    "base_unidades": 24,
+    "regla": "unidades"
+  },
+  "sub_recetas": [
+    {
+      "id": "masa-americanas-01",
+      "nombre": "Masa de cookies americanas",
+      "ingredientes": [
+        { "nombre": "harina 0000", "cantidad_g": 250, "rol": "estructura", "notas": "tamizada" },
+        { "nombre": "avena arrollada", "cantidad_g": 100, "rol": "estructura", "notas": "" },
+        { "nombre": "bicarbonato de sodio", "cantidad_g": 5, "rol": "leudante", "notas": "" },
+        { "nombre": "sal", "cantidad_g": 3, "rol": "sabor", "notas": "" },
+        { "nombre": "mantequilla", "cantidad_g": 200, "rol": "grasa", "notas": "en pomada" },
+        { "nombre": "azúcar moreno", "cantidad_g": 150, "rol": "endulzante", "notas": "" },
+        { "nombre": "azúcar blanco", "cantidad_g": 100, "rol": "endulzante", "notas": "" },
+        { "nombre": "huevos", "cantidad_g": 100, "rol": "estructura", "notas": "temperatura ambiente" },
+        { "nombre": "esencia de vainilla", "cantidad_g": 5, "rol": "aroma", "notas": "" },
+        { "nombre": "chips de chocolate", "cantidad_g": 150, "rol": "sabor", "notas": "" },
+        { "nombre": "nueces picadas", "cantidad_g": 100, "rol": "sabor", "notas": "" }
+      ],
+      "etapas": [
+        { "nombre": "Cremado", "duracion_min": 5, "temperatura_c": 22, "tecnica": "cremado", "descripcion": "Batir la mantequilla con ambos azúcares hasta blanquear.", "ciencia_ref": "aireado" },
+        { "nombre": "Incorporación", "duracion_min": 5, "tecnica": "emulsion", "descripcion": "Incorporar los huevos uno a uno y la vainilla. Luego los ingredientes secos tamizados, la avena, los chips y las nueces.", "ciencia_ref": "emulsion" },
+        { "nombre": "Frío", "duracion_min": 60, "temperatura_c": 4, "tecnica": "refrigeración", "descripcion": "Refrigerar la masa por 1 hora.", "ciencia_ref": "" },
+        { "nombre": "Horneado", "duracion_min": 14, "temperatura_c": 180, "tecnica": "horneado", "descripcion": "Formar bolitas grandes y hornear hasta que los bordes estén dorados.", "ciencia_ref": "gelatinizacion_almidon" }
+      ]
+    }
+  ],
+  "etapas": [
+    { "nombre": "Preparar masa", "sub_receta_id": "masa-americanas-01", "ciencia_ref": "aireado" },
+    { "nombre": "Frío", "descripcion": "Refrigerar la masa por 1 hora.", "ciencia_ref": "" },
+    { "nombre": "Formado", "descripcion": "Formar bolitas grandes de masa.", "ciencia_ref": "" },
+    { "nombre": "Horneado", "descripcion": "Hornear a 180°C por 14 minutos hasta que los bordes estén dorados.", "ciencia_ref": "gelatinizacion_almidon" },
+    { "nombre": "Enfriado", "descripcion": "Dejar enfriar sobre rejilla antes de consumir.", "ciencia_ref": "" }
+  ],
+  "ciencia": [
+    {
+      "fenomeno": "aireado",
+      "explicacion": "El cremado de la mantequilla con el azúcar incorpora aire en forma de pequeñas burbujas. La grasa sólida de la mantequilla atrapa estas burbujas, y los cristales de azúcar ayudan a estabilizarlas. Al hornearse, el aire se expande y el bicarbonato produce CO2, lo que da volumen a las cookies.",
+      "punto_critico": "La temperatura de la mantequilla (20-22°C). Si está muy fría, no se incorpora aire; si está muy caliente, la mantequilla se derrite y no puede atrapar las burbujas.",
+      "error_tipico": "No cremar lo suficiente o añadir los huevos demasiado rápido, lo que provoca que la emulsión se corte.",
+      "referencia": "Koppmann, M. Manual de Química Culinaria, Cap. 2: Las Proteínas I."
+    },
+    {
+      "fenomeno": "emulsion",
+      "explicacion": "La mantequilla y los huevos forman una emulsión de grasa en agua. La lecitina de la yema actúa como emulsionante, permitiendo que la grasa se disperse en la fase acuosa. Esta emulsión da cohesión y humedad a la masa.",
+      "punto_critico": "La incorporación gradual de los huevos. Si se añaden todos de golpe, la emulsión puede cortarse.",
+      "error_tipico": "Añadir los huevos fríos, lo que puede provocar que la mantequilla se endurezca y la emulsión se corte.",
+      "referencia": "Koppmann, M. Manual de Química Culinaria, Cap. 3: Las Emulsiones."
+    },
+    {
+      "fenomeno": "reaccion_maillard",
+      "explicacion": "La reacción de Maillard es una reacción de pardeamiento no enzimático entre aminoácidos y azúcares reductores. En las cookies americanas, el azúcar moreno, las nueces y los chips de chocolate favorecen esta reacción, que contribuye al color dorado y al sabor complejo.",
+      "punto_critico": "La temperatura (>140°C) y la presencia de azúcares reductores. La reacción se acelera a medida que aumenta la temperatura.",
+      "error_tipico": "Hornear a temperatura muy alta, lo que puede quemar los bordes antes de que el centro se cocine.",
+      "referencia": "Badui Dergal, S. Química de los Alimentos, Cap. 2: Hidratos de Carbono, Sección 2.9.5.2 Reacción de Maillard."
+    }
+  ],
+  "bpm": [
+    "Lavado de manos antes de manipular",
+    "Superficie desinfectada",
+    "Uso de guantes",
+    "Temperatura de frío controlada (< 5°C)"
+  ],
+  "anmat": [
+    "Rotulado según CAA art. 235",
+    "Declaración de alérgenos",
+    "Fecha de elaboración y vencimiento",
+    "Condiciones de conservación: ambiente seco"
+  ],
+  "rendimiento": {
+    "unidades": 24,
+    "peso_pieza_g": 55,
+    "peso_total_g": 1320
+  },
+  "referencias": [
+    { "libro": "Gross, Osvaldo. El ABC de la Pastelería", "capitulo": "", "pagina": 0 },
+    { "libro": "Koppmann, Mariana. Manual de Química Culinaria", "capitulo": "", "pagina": 0 },
+    { "libro": "Badui Dergal, Salvador. Química de los Alimentos", "capitulo": "2", "pagina": 0 }
+  ],
+  "activa": true
+}]
